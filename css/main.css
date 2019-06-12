@@ -67,7 +67,8 @@ strong {
 /*
 <----------------||----------------$Header----------------||---------------->
 */
-h1 {
+h1 
+{
 	font-size: 1.6rem;
 	font-weight: 700;
 	line-height: 1.25em;
@@ -77,10 +78,12 @@ h1 {
 	left: 4.0rem;
 	z-index: 100;
 }
-	h1 span {
-		font-weight: 400;
-		font-size: 1.2rem;
-	}
+
+h1 span 
+{
+	font-weight: 400;
+	font-size: 1.2rem;
+}
 #copyright {
     font-size: 1.2rem;
     line-height: 1em;
@@ -252,9 +255,6 @@ section#about {
 							background: #222;
 							transition: background 0.3s ease;
 						}
-						label.focus:before {
-
-						}
 						label > span {
 							position: absolute;
 							top: 1.2rem;
@@ -302,10 +302,6 @@ section#about {
 							-webkit-appearance: none;
 							transition: all 0.3s ease;
 						}
-						label.focus input,
-						label.focus textarea {
-
-						}
 						textarea {
 							resize: none;
 						}
@@ -330,8 +326,6 @@ section#about {
 							font-size: 1.2rem;
 							line-height: 3.6rem;
 							letter-spacing: .25em;
-						}
-						button[type=submit]:hover {
 						}
 						button[type=submit] span {
 							letter-spacing: 0;
